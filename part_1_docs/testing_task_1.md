@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total # = 0
   for card in cards:
     total += card.value
-    return "You have a total of" + total #return statement should be outside of for loop
+    return "You have a total of" + total #return statement should be outside of for loop and a space should be after the last word
   
 ```
